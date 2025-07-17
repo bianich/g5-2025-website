@@ -86,17 +86,15 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 
 chulapa-skin:
-  skin:  "sbd" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
+  skin:  "minty" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    # font-family-base:  "Space Mono"
-
-
-#chulapa-skin:
-#  autothemer  :  true
-#  vars:
-#    primary: "#07286E"
-
-
+    primary: "#0AC0AD"
+    secondary: "#157FC3"
+    success: "#0BCE65"
+    danger: "#f2460d"
+    info: "#7ebcfa"
+    light: "#00C45B"
+    dark: "#00A04A"
 
 ##################################################
 #    Don't change anything below this line    #
