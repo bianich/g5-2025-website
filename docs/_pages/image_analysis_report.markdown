@@ -89,7 +89,7 @@ We first extracted the penultimate layer features of the ResNet50 model, which h
  
 The resulting t-SNE plot is shown below:
  
-![t-SNE plot with ResNet50 embeddings](../assets/images/image-analysis/tsne_resnet_k5.png)
+![t-SNE plot with ResNet50 embeddings](assets/images/image-analysis/tsne_resnet_k5.png)
  
 As observed, the clusters heavily overlap and fail to form separable regions in the feature space. This confirms that the ResNet model, although fine-tuned on our specific task, lacks a deep semantic understanding of the images beyond the binary label.
  
@@ -101,13 +101,13 @@ The blurred and unstructured clusters reflect what was already noted in classifi
  
 We repeated the same process using CLIP, a model pre-trained on large-scale vision-language data. This time, KMeans was applied with k=6, again guided by the elbow method. Embeddings were directly taken from CLIP’s visual encoder. The clusters obtained are shown below:
 
-![CLIP Clustering](../assets/images/image-analysis/tsne_clip_k6.png)
+![CLIP Clustering](assets/images/image-analysis/tsne_clip_k6.png)
 
 Compared to the previous clustering based on ResNet embeddings, this result shows more well-defined and visually separable clusters.
 
 The difference in output is notable. The sampled grid of images below shows clearer visual patterns across clusters:
 
-![Cluster samples from CLIP](../assets/images/image-analysis/CLIP_CLUSTERING.png)
+![Cluster samples from CLIP](assets/images/image-analysis/CLIP_CLUSTERING.png)
  
 For example:
  
@@ -125,7 +125,7 @@ This semantic grouping emerges without any supervised label, which highlights th
  
 By joining the cluster assignments with the sales data, we evaluated how many items were sold within each cluster. We found that certain clusters exhibited above-average sell-through rates.
 
-![Selling average CLIP](../assets/images/image-analysis/CLIP_CLUSTERING_sold.png)
+![Selling average CLIP](assets/images/image-analysis/CLIP_CLUSTERING_sold.png)
  
 In particular, Cluster 4, which contains swimsuits and summer wear, shows a higher percentage of sold items.
  
