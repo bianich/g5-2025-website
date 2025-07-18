@@ -69,7 +69,7 @@ navbar:
         - title: Sliders
           url: /slider.html
         - title: Image Analysis
-          url: /image-analysis.html
+          url: /image_analysis_report.html
 
     - title: SBD Master # this must be always the last item in the navbar, don't change it
       url: https://masterbigdata.it/
