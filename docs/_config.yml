@@ -66,6 +66,8 @@ navbar:
           url: /folium.html
         - title: Sliders
           url: /slider.html
+        - title: Image Analysis
+          url: /image-analysis.html
 
     - title: SBD Master # this must be always the last item in the navbar, don't change it
       url: https://masterbigdata.it/
