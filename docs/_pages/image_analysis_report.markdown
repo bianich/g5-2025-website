@@ -52,7 +52,7 @@ These figures suggest that the model performed only marginally better than rando
 
 The figure below shows the training and validation losses over the course of the epochs:
 
-![Training vs Validation Loss](../assets/images/image-analysis/resnet_task_1.png)
+![Training vs Validation Loss](assets/images/image-analysis/resnet_task_1.png)
 
 
 Loss decreased gradually, suggesting that the network was optimizing. However, the values remained relatively high across epochs, reinforcing that the model struggled to effectively learn meaningful features related to the task. 
@@ -65,7 +65,7 @@ Grad-CAM results were analyzed across both correct and incorrect predictions. Th
 
 The visualization below contrasts these two groups:
 
-![Grad-CAM Explainability](../assets/images/image-analysis/gradcam.png)
+![Grad-CAM Explainability](assets/images/image-analysis/gradcam.png)
 
 The labels T and P indicate the ground truth and predicted classes, respectively.
 
