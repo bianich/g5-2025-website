@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Image Analysis"
+---
 # Image Analysis
 
 ## Dataset Overview
