@@ -1,7 +1,11 @@
 ---
-layout: sbd
-title: Pagina Recuperata
-permalink: /pagina-recuperata/
+layout: default
+title: "Home"
+vega: true
+header_type: hero #base, post, hero,image, splash
+header_img: assets/images/header.svg
+header_title: "Image Analysis"
+
 ---
 
 
