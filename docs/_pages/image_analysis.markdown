@@ -54,7 +54,7 @@ This report suggests that the model performed only marginally better than random
 ## Loss Curve
 The figure below shows the training and validation losses over the course of the epochs:
 
-![Training vs Validation Loss](resnet_task_1.png)
+![Training vs Validation Loss](assets/images/thumb-charts/resnet_task_1.png)
 
 Loss decreased gradually, suggesting that the network was optimizing. However, the values remained relatively high across epochs, reinforcing that the model struggled to effectively learn meaningful features related to the task.
 
@@ -65,7 +65,7 @@ Grad-CAM results were analyzed across both correct and incorrect predictions. Th
 
 The visualization below contrasts these two groups:
 
-![Grad-CAM Explainability](gradcam_2.png)
+![Grad-CAM Explainability](assets/images/thumb-charts/gradcam_2.png)
 The labels T and P indicate the ground truth and predicted classes, respectively.
 
 Overall, the Grad-CAM results reinforce the interpretation that the model does not consistently rely on relevant visual cues, which supports the conclusion that image content alone is insufficient for predicting item sale outcomes.
@@ -83,7 +83,7 @@ We first extracted the penultimate layer features of the ResNet50 model, which h
 
 The resulting t-SNE plot is shown below:
 
-![t-SNE plot with ResNet50 embeddings](tsne_resnet_k5.png)
+![t-SNE plot with ResNet50 embeddings](assets/images/thumb-charts/tsne_resnet_k5.png)
 
 As observed, the clusters heavily overlap and fail to form separable regions in the feature space. This confirms that the ResNet model, although fine-tuned on our specific task, lacks a deep semantic understanding of the images beyond the binary label.
 
@@ -92,13 +92,13 @@ The blurred and unstructured clusters reflect what was already noted in classifi
 ## Clustering on CLIP Embeddings
 We repeated the same process using CLIP, a model pre-trained on large-scale vision-language data. This time, KMeans was applied with k=6, again guided by the elbow method. Embeddings were directly taken from CLIP’s visual encoder. The clusters obtained are shown below:
 
-![CLIP Clustering](CLIP_CLUSTERING.png)
+![CLIP Clustering](assets/images/thumb-charts/CLIP_CLUSTERING.png)
 
 Compared to the previous clustering based on ResNet embeddings, this result shows more well-defined and visually separable clusters.
 
 The difference in output is notable. The sampled grid of images below shows clearer visual patterns across clusters:
 
-![Cluster samples from CLIP](CLIP_CLUSTERING_sold.png)
+![Cluster samples from CLIP](assets/images/thumb-charts/CLIP_CLUSTERING_sold.png)
 
 For example:
 
