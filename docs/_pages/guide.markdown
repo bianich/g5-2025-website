@@ -26,7 +26,7 @@ To investigate this, we collected over **560,000 product listings** and data on 
 
 ---
 
-![banner](https://i.imgur.com/banner.png)
+![b](https://i.imgur.com/banner.png)
 
 ---
 
@@ -62,7 +62,7 @@ We adopted a two-phase web scraping approach:
 
 ## Database Schema  
 
-![banner](https://i.imgur.com/banner.png)
+![b](https://i.imgur.com/banner.png)
 
 ---
 
