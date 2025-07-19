@@ -58,8 +58,8 @@ navbar:
       url: /tech.html
     - title: in-depth
       child:
-        - title: Local development
-          url: /local-development.html
+        - title: Image Analysis
+          url: /image_analysis.html
         - title: Markdown
           url: /markdown.html
         - title: Charts
