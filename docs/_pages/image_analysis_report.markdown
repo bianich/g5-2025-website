@@ -34,19 +34,25 @@ The model failed to produce accurate or generalizable results.
 
 Evaluation on the validation set yielded the following metrics:
 
-| Metric           | Value  |
-|------------------|--------|
-| Accuracy         | 0.5301 |
-| Precision        | XXXXXXXXXX |
-| Recall           | XXXXX |
-| F1-score         | 0.6133 |
-| ROC AUC          | XXX |
-| Log Loss         | XXX |
-| Support (class 0)|  XXX  |
-| Support (class 1)|  XXX  |
+
+| Class     | Precision | Recall | F1-score | Support |
+|-----------|-----------|--------|----------|---------|
+| not_sold  | 0.55      | 0.31   | 0.40     | 6250    |
+| sold      | 0.52      | 0.75   | 0.61     | 6250    |
+
+| Metric         | Value  |
+|----------------|--------|
+| Accuracy       | 0.53   |
+| Macro Avg F1   | 0.51   |
+| Weighted Avg F1| 0.51   |
+| Macro Avg Precision | 0.54 |
+| Weighted Avg Precision | 0.54 |
+| Macro Avg Recall | 0.53 |
+| Weighted Avg Recall | 0.53 |
 
 
-These figures suggest that the model performed only marginally better than random guessing. This outcome indicates that *visual information alone, at least in this configuration, is not a reliable predictor of an item’s selling success*.
+
+This report suggests that the model performed only marginally better than random guessing. This outcome indicates that *visual information alone, at least in this configuration, is not a reliable predictor of an item’s selling success*.
 
 ### Loss Curve
 
@@ -65,7 +71,7 @@ Grad-CAM results were analyzed across both correct and incorrect predictions. Th
 
 The visualization below contrasts these two groups:
 
-![Grad-CAM Explainability](assets/images/image-analysis/gradcam.png)
+![Grad-CAM Explainability](assets/images/image-analysis/gradcam_2.png)
 
 The labels T and P indicate the ground truth and predicted classes, respectively.
 
