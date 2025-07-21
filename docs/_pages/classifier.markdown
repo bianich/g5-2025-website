@@ -25,4 +25,4 @@ CatBoost also offers built-in tools for feature importance analysis, allowing fo
 
 ---
 
-{% include slider.html data="sliders" %}
+{% include classifier.html data="classifier" %}
