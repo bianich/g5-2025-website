@@ -44,7 +44,7 @@ url: "https://bianich.github.io"
 #################################
 
 navbar:
-  #style :  dual #don't change this, it is used to set the navbar style.
+  style :  dual #don't change this, it is used to set the navbar style.
   brand: # this is the brand of the navbar, it will be displayed on the left side.
     title :  "SoBigData Master's projects Template"
     img: "./assets/images/Logo_masthead.png" # don't change this
@@ -84,7 +84,7 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 
 chulapa-skin:
-  layout: sidebar
+  #layout: sidebar
   skin:  "minty" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
   vars:
     primary: "#0AC0AD"

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Image Analysis"
+show_sidetoc: true
 ---
 # Image Analysis
 
