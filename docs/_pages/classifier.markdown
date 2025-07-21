@@ -26,17 +26,3 @@ CatBoost also offers built-in tools for feature importance analysis, allowing fo
 ---
 
 {% include slider.html data="sliders" %}
-
-
-```yaml 
-sliders:
-  - id: slider
-    title: "Feature Importances"
-    items:
-      - image: "/assets/images/Beeswarm1.png"
-        caption: "Beeswarm representation, part 1"
-      - image: "/assets/images/Beeswarm2.png"
-        caption: "Beeswarm representation, part 2"
-      - image: "/assets/images/Beeswarm2.png"
-        caption: "Beeswarm representation, part 2"
-```
