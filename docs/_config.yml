@@ -30,7 +30,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
-  - name: "SoBigData Master's projects Template"
+  - name: "Group 5"
     url: "https://github.com/bianich/g5-2025-website/"
 
 markdown: kramdown
@@ -46,27 +46,18 @@ url: "https://bianich.github.io"
 navbar:
   style :  dual #don't change this, it is used to set the navbar style.
   brand: # this is the brand of the navbar, it will be displayed on the left side.
-    title :  "SoBigData Master's projects Template"
+    title :  "Like 2 Resell"
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
-    - title: Resell
-      url: /home.html
-    - title: in-depth
-      child:
-        - title: Image Analysis
-          url: /image_analysis.html
-        - title: Classifier
-          url: /classifier.html
-        - title: Charts
-          url: /charts.html
-        - title: Folium
-          url: /folium.html
-        - title: Sliders
-          url: /slider.html
-        - title: Image Analysis
-          url: /image_analysis_report.html
-
+    - title: Classifier
+      url: /classifier.html
+    - title: Example
+      url: /charts.html
+    - title: Clustering
+      url: /folium.html
+    - title: Image Analysis
+      url: /image_analysis_report.html
     - title: SBD Master # this must be always the last item in the navbar, don't change it
       url: https://masterbigdata.it/
 
