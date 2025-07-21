@@ -50,18 +50,14 @@ navbar:
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
-    - title: Guide
-      url: /guide.html
-    - title: Example page
-      url: /example.html
-    - title: Tech stuff
-      url: /tech.html
+    - title: Resell
+      url: /home.html
     - title: in-depth
       child:
         - title: Image Analysis
           url: /image_analysis.html
-        - title: Markdown
-          url: /markdown.html
+        - title: Classifier
+          url: /classifier.html
         - title: Charts
           url: /charts.html
         - title: Folium

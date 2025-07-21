@@ -1,5 +1,5 @@
 ---
-layout: l2r
+layout: default
 title: "Classifier"
 header_title: "Classifier"
 header_type: hero #base, post, hero,image, splash
@@ -14,7 +14,7 @@ The main purpose of this project was to find hidden patterns and within the data
 After a phase of data cleaning, several models were tested to achieve reliable performance. Initially, Decision Tree Classifiers (DTC) and Random Forests yielded an accuracy slightly above 70% with minimal parameter tuning. These models also provide valuable insight into feature importance: in the case of DTCs, the structure of the tree itself highlights the most influential feature, while Random Forests aggregate importance across al trees - for example, using mean decrease in impurity. 
 Both models showed taht the number of likes an item receives is a key predictive factor, while other variables had a more limited impact. 
 
-![Feature Importance](/assets/images/Feature_Importance_CatBoost.png)
+![Feature Importance](/assets/images/Feature_Importance_RF.png)
 
 The most accurate model was CatBoost, which reached an accuracy over 78%. The fact that it can natively process categorical variables made it particularly effective for this dataset, which includes fields such as city, region, brand and size which cannot be properly translated into numeric variables. 
 
@@ -23,3 +23,21 @@ The most accurate model was CatBoost, which reached an accuracy over 78%. The fa
 CatBoost also offers built-in tools for feature importance analysis, allowing for the generation of visual explanations. Results show that the most relevant numerical features are the publication date and the item category - fitting with the idea that different items follow different trends and that the more an item stays online, the more likely it is to be sold or removed - followed by the number of likes.
 
 
+---
+
+{% include slider.html data="sliders" label="Choose a carousel" %}
+
+
+
+```yaml 
+sliders:
+  - id: slider1
+    title: "Slider 1"
+    items:
+      - image: "/assets/images/Beeswarm1.png"
+        caption: "Beeswarm representation, part 1"
+      - image: "/assets/images/Beeswarm2.png"
+        caption: "Beeswarm representation, part 2"
+      - image: "/assets/images/Beeswarm2.png"
+        caption: "Beeswarm representation, part 2"
+```
