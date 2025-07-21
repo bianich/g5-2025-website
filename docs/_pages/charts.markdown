@@ -62,7 +62,7 @@ In this way, the chart will be displayed responsively, adapting to the width of 
 # Example of embedding a chart created with Altair
 
 <div style="height: 400px">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/chart_responsive.json" style="width: 100%; height: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/map1.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
 - The chart was saved as `chart_responsive.json` and placed in the `assets/charts` folder.

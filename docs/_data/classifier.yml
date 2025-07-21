@@ -3,11 +3,8 @@ sliders:
     title: "Feature Importances"
     slides:
       - image: "assets/images/Beeswarm1.png"
-        label: "First slide label"
         description: "Beeswarm representation, part 1"
       - image: "assets/images/Beeswarm2.png"
-        label: "Second slide label"
         description: "Beeswarm representation, part 2"
       - image: "assets/images/SHAP_CatBoost.png"
-        label: "Third slide label"
         description: "Decision plot"
