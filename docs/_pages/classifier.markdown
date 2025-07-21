@@ -21,3 +21,5 @@ The most accurate model was CatBoost, which reached an accuracy over 78%. The fa
 ![Feature Importance](assets/images/Feature_Importance_CatBoost.png)
 
 CatBoost also offers built-in tools for feature importance analysis, allowing for the generation of visual explanations. Results show that the most relevant numerical features are the publication date and the item category - fitting with the idea that different items follow different trends and that the more an item stays online, the more likely it is to be sold or removed - followed by the number of likes.
+
+{% include slider.html data="classifier" label="Choose a carousel" %}
