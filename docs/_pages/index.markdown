@@ -8,7 +8,7 @@ vega: true
 ---
 
 <div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/images/general/Header.png" alt="sbd-pattern" class="full-width-image">
 </div>
 
 To develop the *Progettone* website  we will use a **Static Site Generator** (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.

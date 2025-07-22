@@ -103,7 +103,9 @@ The map shows some small **emerging semantic clusters**, especially related to p
  
 An interactive version of this map was built using **Altair**, allowing the user to explore the dataset by brand or sale status, with the ability to highlight items and inspect details through tooltips.
  
- 
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/images/text-analysis/semantic_map_interactive_5.json" style="width: 100%; height: 100%"></vegachart>
+</div>
  
 ---
  

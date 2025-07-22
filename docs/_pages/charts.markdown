@@ -9,20 +9,27 @@ header_type: hero #base, post, hero,image, splash
 #header_img: assets/images/altair-gallery.png
 header_title: "Charts"
 ---
-<div style="height: 400px">
-<vegachart  style="height: 400px"schema-url="{{site.baseurl}}/assets/charts/map_ita.json" style="width: 100%; height: 100%"></vegachart>
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1_map_ita.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
-<div style="height: 400px">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/map_ita.json" style="width: 100%; height: 100%"></vegachart>
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/2_region_activity.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
-<div style="height: 400px">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/chart_responsive.json" style="width: 100%; height: 100%"></vegachart>
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/seller_classes.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
-<div style="height: 400px">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/chart_responsive.json" style="width: 100%; height: 100%"></vegachart>
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/5_likes_chart.json" style="width: 100%; height: 100%"></vegachart>
 </div>
+
+# TITOLO
+
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/smart_chart.json" style="width: 100%; height: 100%"></vegachart>
+</div>
+
 
 
