@@ -48,16 +48,18 @@ navbar:
   brand: # this is the brand of the navbar, it will be displayed on the left side.
     title :  "Like 2 Resell"
     img: "./assets/images/Logo_masthead.png" # don't change this
-    url: /
+    url: /home.html
   nav:
-    - title: Classifier
-      url: /classifier.html
-    - title: Example
+    - title: Charts
       url: /charts.html
     - title: Clustering
-      url: /folium.html
+      url: /clustering.html
+    - title: Textual Analysis
+      url: /textual_analysis.html
     - title: Image Analysis
-      url: /image_analysis_report.html
+      url: /image_analysis.html
+    - title: Classifier
+      url: /classifier.html
     - title: SBD Master # this must be always the last item in the navbar, don't change it
       url: https://masterbigdata.it/
 

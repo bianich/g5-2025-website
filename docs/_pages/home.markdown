@@ -26,7 +26,14 @@ To investigate this, we collected over **560,000 product listings** and data on 
 
 ---
 
-![b](/workspaces/g5-2025-website/docs/assets/images/Logo_SoBigData_ITA_560_X_100.png)
+## Our story
+
+“Men go for brands,” Simone Buccioni told us — known online as @Majinbux, a reseller of streetwear labels like Stüssy and Carhartt WIP. The implicit message is: brands matter! Guided by that claim, we went looking for confirmation. But what we found - on the basis of the data at our disposal- told us a different story.
+Brand a poor predictor of sales, probably because it's often victim of typos: topping the list of most-used "brands" is UOMO — simply the Italian word for “man.”
+What seems to matter more are the social-related features, such as user engagement and visibility on the platform, rather than item-related characteristics like the presence of a brand logo. These patterns suggest that how an item circulates within the community may influence its chances of selling more than its intrinsic features.
+So: perhaps less focus on (mistytiped) logos, and more on social dynamics.
+Words matter too. Text analysis of product descriptions shows that buyers prefer listings that say “never worn” or “in excellent condition.” Buyers are after the least-used secondhand — something that feels almost new.
+The brand alone isn’t enough. What you need is visibility, approval— and not a wrinkle in sight.
 
 ---
 
