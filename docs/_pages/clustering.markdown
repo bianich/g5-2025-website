@@ -4,6 +4,7 @@
 
 layout: default
 title: "Data Analysis"
+header_title: "Clustering"
 vega: true
 
 header_type: hero #base, post, hero,image, splash

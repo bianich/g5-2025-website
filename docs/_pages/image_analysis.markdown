@@ -1,7 +1,10 @@
 ---
 layout: default
 title: "Image Analysis"
-show_sidetoc: true
+header_title: "Image Analysis"
+vega: true
+
+header_type: hero #base, post, hero,image, splash
 ---
 # Image Analysis
 
