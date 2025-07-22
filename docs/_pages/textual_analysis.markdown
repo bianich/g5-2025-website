@@ -102,10 +102,7 @@ To explore the semantic structure of user-generated content, a dedicated embeddi
 The map shows some small **emerging semantic clusters**, especially related to product type, condition, or style, although the separation is not always sharp due to the heterogeneity of the texts.
  
 An interactive version of this map was built using **Altair**, allowing the user to explore the dataset by brand or sale status, with the ability to highlight items and inspect details through tooltips.
- 
-<div style="width: 100%">
-<vegachart schema-url="{{site.baseurl}}/assets/images/text-analysis/semantic_map_interactive_5.json" style="width: 100%; height: 100%"></vegachart>
-</div>
+
  
 ---
  
