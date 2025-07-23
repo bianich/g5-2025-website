@@ -17,7 +17,7 @@ strong {
             right: 50%;
             margin-left: -50vw;
             margin-right: -50vw;
-
+            margin-bottom: 5vw;
         }
 
 .full-width-image {
@@ -117,11 +117,14 @@ iframe {
   text-decoration: none;    /* rimuove underline */
 }
 
-vega-embed {
+.vega-embed {
   display: flex !important;
   justify-content: center;
 }
 
+h2 {
+  margin-bottom: 0.1rem;
+}
 
 
 
