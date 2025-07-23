@@ -77,9 +77,6 @@ The percentage label on each bar indicates how many items were actually sold. In
       Seller distribution in Italy by class
     </h2>
 </div>
-<div style="width: 100%">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/3_seller_classes.json" style="width: 100%; height: 100%"></vegachart>
-</div>
 
 The distribution of items published per seller is highly skewed: 50% of users publish only 1 item, and 75% no more than 2, with an average just above 2. However, a small number of sellers post hundreds or even thousands of items, with a maximum of 3,702. 
 
@@ -96,6 +93,10 @@ Super Seller: over 250 items → likely professional use (0.004%).
 The interactive chart displays the total number of items published by each class. Clicking on a bar filters the data and updates the table on the right, which displays key statistics: number of users, items sold, selling rate, total likes, and average likes per sold item.   
 
 This grouping helps reveal how each seller type contributes to the platform in terms of activity, conversions, and engagement. It also offers insights into user segmentation, sales performance, and behavioral patterns, helping differentiate casual from commercial use.  
+
+<div style="width: 100%">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/3_seller_classes.json" style="width: 100%; height: 100%"></vegachart>
+</div>
 
 <br>
 <br>
