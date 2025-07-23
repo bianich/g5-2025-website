@@ -10,3 +10,5 @@ header_type: hero #base, post, hero,image, splash
 header_title: "Database"
 
 ---
+
+![DataBase Schema](assets/images/database/database-schema.jpeg)
