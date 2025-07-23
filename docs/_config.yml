@@ -51,13 +51,13 @@ navbar:
     url: /
   nav:
     - title: "Like 2:"
-    - title: Show
+    - title: Visualize
       url: /charts.html
-    - title: Fetch
+    - title: Collect
       url: /database.html
     - title: Group
       url: /clustering.html
-    - title: Text
+    - title: Describe
       url: /textual_analysis.html
     - title: See
       url: /image_analysis.html

@@ -92,13 +92,30 @@ iframe {
 }
 
 .chulapa-subtitle {
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 600;
   font-style: italic;
   color: #ffffffdd;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+.hero-chulapa-image h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* aumenta contrasto */
+
+}
+
+.hero-chulapa-image {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('tuo-sfondo.png');
+}
+
+.navbar-nav .nav-item:first-child .nav-link {
+  pointer-events: none;     /* blocca i clic */
+  cursor: default;          /* niente manina */
+  text-decoration: none;    /* rimuove underline */
+}
 
 
 
