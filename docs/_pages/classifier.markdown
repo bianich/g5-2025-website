@@ -31,8 +31,9 @@ Both approaches revealed that the number of likes an item receives is a key pred
 Unfortunately, neither Random Forest nor DTC handled categorical variables effectively, despite the applied encoding. This limitation resulted in relevant features and underlying patterns being ignored.
 To address this, alternative encoding strategies were tested, but had little effect on performance.
 
-
 <br>
+<br>
+
 ## CatBoost
 <br>
 As a next step, CatBoost was introduced and it proved to be the best-performing model on this dataset: in the best training run, it achieved 78.3% accuracy, a 78.2% F1-score, and a ROC AUC of 0.876. The lowest metric was the recall for the "not sold" class, at 72%.
@@ -46,5 +47,9 @@ CatBoost also offers built-in tools for feature importance analysis, allowing fo
 
 <br>
 <br>
+<br>
+
 ## SHAP plots
 {% include slider.html data="classifier" label="Choose a carousel" %}
+<br>
+<br>

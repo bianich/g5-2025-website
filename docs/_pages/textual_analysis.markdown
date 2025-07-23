@@ -8,6 +8,9 @@ header_img: assets/images/general/Header.png
 subtitle: "Like 2 describe"
 
 ---
+<br>
+<br>
+
 ## Analysis Objectives
 <br>
 The textual analysis pursued the following goals:
@@ -18,9 +21,11 @@ The textual analysis pursued the following goals:
  
 <br>
 <br>
- 
+<br>
+
 ## Methodology
- 
+<br>
+
 #### Cleaning and Pre-processing
 <br>
 A classic text preprocessing pipeline was implemented:
@@ -29,8 +34,9 @@ A classic text preprocessing pipeline was implemented:
 - Symbol and emoji removal (preceded by occurrence analysis);
 
 <br>
-#### NLP Techniques
 
+#### NLP Techniques
+<br>
 - **Regex** for cleaning, pattern matching, and initial information extraction;
 - **TF-IDF** for exploratory analysis and initial vector representation;
 - **Word2Vec** and **Sentence2Vec** for semantic embedding;
@@ -39,7 +45,8 @@ Overall, the results were fairly limited due to the low coherence and quality of
  
 <br>
 <br>
- 
+<br>
+
 ## Dataset Enrichment
 <br>
 Through text analysis, it was possible to:
@@ -51,9 +58,10 @@ This made it possible to observe that items with gender **F** show a higher like
 <br>
 <br>
 <br>
- 
+<br>
+
 ## Quantitative Analysis
- 
+<br> 
 ### Text Length
 <br>
 A significant relationship emerged between text length and the likelihood of sale:
@@ -64,24 +72,27 @@ A significant relationship emerged between text length and the likelihood of sal
 | Description   | 4–12 words                        |
  
 Texts that are too short or too long tend to correlate with lower sale rates.
- 
+<br>
+<br>
 ![Title length](assets/images/text-analysis/title_len.png)
- 
+<br>
 ![Description length](assets/images/text-analysis/description_len.png)
  
 <br>
 <br>
 <br>
+<br>
  
 ## Semantic Analysis
- 
+<br>
 ### Key Expressions: “mai...” (“never...”)
+<br>
 Phrases starting with “mai...” (e.g., *mai indossato*, *mai usato* — "never worn", "never used") appear frequently and **have a positive impact** on sale rates.  
 The only exception: for items already classified as *"new with tag"*, the effect is neutral; instead, **the effect is particularly positive for items classified as “satisfactory”**, suggesting a persuasive power in this phrasing.
- 
+<br>
+
 ![Sales Rate with "mai"](assets/images/text-analysis/sales_rate.png)
 
-<br>
 <br>
 <br>
  
@@ -96,8 +107,8 @@ To identify which textual elements most influence the likelihood of an item bein
  
 Tokens with the **highest positive log-odds** were strongly associated with sold items, while those with **strongly negative log-odds** were more common in unsold listings.
  
-The following chart illustrates the 12 most "positive" and 12 most "negative" tokens in terms of their impact on sales:
- 
+The following chart illustrates the 12 most "positive" and 12 most "negative" tokens in terms of their impact on sales: 
+<br>
 ![Token log-odds sold vs unsold](assets/images/text-analysis/token_ratio.png)
 
 <br>
@@ -116,7 +127,7 @@ To explore the semantic structure of user-generated content, a dedicated embeddi
 The map shows some small **emerging semantic clusters**, especially related to product type, condition, or style, although the separation is not always sharp due to the heterogeneity of the texts.
  
 An interactive version of this map was built using **Altair**, allowing the user to explore the dataset by brand or sale status, with the ability to highlight items and inspect details through tooltips.
-
+<br>
 <div style="height: 400px">
   <vegachart schema-url="{{site.baseurl}}/assets/images/text-analysis/semantic_map_interactive_6.json" style="width: 100%; height: 100%"></vegachart>
 </div>
@@ -153,7 +164,7 @@ This result represents a **significant step forward in semantic clustering**. Se
 - **Cluster 38**: clothing for **children**
  
 These findings suggest that HDBSCAN-based clustering, if further refined, could become a powerful tool for **data enrichment**, enabling the assignment of inferred attributes such as category, subcategory, or style to items that lack complete metadata.
-
+<br>
 <div style="height: 400px">
   <vegachart schema-url="{{site.baseurl}}/assets/images/text-analysis/umap_clusters_interattivo_light_order_3.json" style="width: 100%; height: 100%"></vegachart>
 </div>
@@ -186,9 +197,9 @@ Several models were tested to predict the likelihood of sale by combining struct
 Text-derived features (e.g., embeddings, length, key expressions) proved to be **useful and complementary** to classical variables.
 <br>
 <br>
-
+<br>
 ### Feature Importance Insights from Random Forest
-<br> 
+<br>
 In an exploratory application of a random forest model, analysis of feature importance revealed that the textual embeddings derived from TF-IDF do indeed carry significant weight. Notably, component 18 emerged as particularly influential in this example.
  
 A deeper investigation into this component showed that it predominantly represents listings for **men’s clothing in good condition**—often described as new or barely worn—and includes details related to color and garment condition. While there are other components with a strong presence of men's items (such as component 14), component 18 uniquely combines **male-oriented content with condition-specific descriptors**, making it especially distinctive.
@@ -214,3 +225,6 @@ Some possible directions for improvement:
 - Introduce **fine-tuning of LLMs** on similar content to obtain more robust extractions (brand, category, condition);
  
 - The resale platform could leverage these insights to implement a system for **automatic qualitative evaluation of texts**, suggesting to users how to improve their descriptions (e.g., in terms of length, clarity, or key terms) to increase sales.
+<br>
+<br>
+<br>
