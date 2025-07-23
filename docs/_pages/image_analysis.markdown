@@ -2,9 +2,9 @@
 layout: default
 title: "Image Analysis"
 header_title: "Image Analysis"
+vega: true
+header_type: hero #base, post, hero,image, splash
 ---
-# Image Analysis
- 
 ## Dataset Overview
  
 This project is based on a large-scale dataset of over 500,000 clothing items scraped from Vinted over a two-month period (April to June). For the purpose of image-based classification, we extracted a balanced subset focused on the sold / not sold target variable.

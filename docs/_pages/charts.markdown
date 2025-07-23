@@ -42,6 +42,9 @@ header_title: "Charts"
 <vegachart schema-url="{{site.baseurl}}/assets/charts/4_smart_chart.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
+<br>
+<br>
+
 <h2 style="width: 100%; text-align: center">
   Average likes per sold item by seller class
 </h2>

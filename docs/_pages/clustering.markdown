@@ -9,7 +9,6 @@ vega: true
 
 header_type: hero #base, post, hero,image, splash
 ---
-
 # Clustering Analysis Report
 
 The dataset contains structured information on items listed for sale, with attributes ranging from geographical coordinates (`lat`, `long`), pricing dynamics (`initial_price`, `price_change`, `total_fees`), interaction features (`likes`, `reviews_count`), to categorical descriptors (`size_macro`, `item_condition`, `business` flag).
