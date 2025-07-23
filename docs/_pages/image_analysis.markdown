@@ -5,6 +5,8 @@ header_title: "Image Analysis"
 vega: true
 header_img: assets/images/general/Header.png
 header_type: hero #base, post, hero,image, splash
+subtitle: "Like 2 see"
+
 ---
 ## Dataset Overview
  
@@ -89,7 +91,7 @@ To further explore the semantic content of product images, we applied unsupervis
  
 This step aimed to assess whether visual information alone carries structure that can be leveraged to group similar products.
  
----
+<br>
  
 ## Clustering on ResNet50 Embeddings
  
@@ -103,7 +105,7 @@ As observed, the clusters heavily overlap and fail to form separable regions in 
  
 The blurred and unstructured clusters reflect what was already noted in classification: the model cannot learn strong visual distinctions related to item success in sales.
  
----
+<br>
  
 ## Clustering on CLIP Embeddings
  
@@ -127,7 +129,7 @@ For example:
  
 This semantic grouping emerges without any supervised label, which highlights the strength of CLIP embeddings in capturing visual categories.
  
----
+<br>
  
 ## Relationship with Item Sales
  
@@ -139,7 +141,7 @@ In particular, Cluster 4, which contains swimsuits and summer wear, shows a high
  
 This suggests that although the raw image alone may not be predictive enough for classification, visual representations can still reflect trends correlated with market behavior. CLIP appears to encode latent features related to visual appeal or seasonal demand.
  
----
+<br>
  
 ## Interpretation
  

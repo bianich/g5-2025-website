@@ -5,6 +5,8 @@ header_title: "Textual Analysis"
 vega: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/general/Header.png
+subtitle: "Like 2 describe"
+
 ---
 ## Analysis Objectives
  

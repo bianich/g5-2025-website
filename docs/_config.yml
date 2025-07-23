@@ -51,10 +51,10 @@ navbar:
     url: /
   nav:
     - title: "Like 2:"
-    - title: Visualize
-      url: /charts.html
     - title: Collect
       url: /database.html
+    - title: Visualize
+      url: /charts.html
     - title: Group
       url: /clustering.html
     - title: Describe
@@ -85,7 +85,7 @@ chulapa-skin:
   vars:
     primary: "#0AC0AD"
     body-color: "#052053"
-    #body-bg: "#000000"
+    #body-bg: "#e9f7f6"
     font-family-base: "Poppins"
     secondary: "#157FC3"
     success: "#0BCE65"
