@@ -51,15 +51,15 @@ navbar:
     url: /home.html
   nav:
     - title: "Like 2:"
-    - title: Visualize
+    - title: Show
       url: /charts.html
     - title: Collect
       url: /database.html
     - title: Group
       url: /clustering.html
-    - title: Describe
+    - title: Text
       url: /textual_analysis.html
-    - title: Depict
+    - title: See
       url: /image_analysis.html
     - title: Guess
       url: /classifier.html
