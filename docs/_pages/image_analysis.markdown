@@ -3,6 +3,7 @@ layout: default
 title: "Image Analysis"
 header_title: "Image Analysis"
 vega: true
+header_img: assets/images/general/Header.png
 header_type: hero #base, post, hero,image, splash
 ---
 ## Dataset Overview

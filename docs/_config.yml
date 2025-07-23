@@ -48,7 +48,7 @@ navbar:
   brand: # this is the brand of the navbar, it will be displayed on the left side.
     title :  "Like 2 Resell"
     img: "./assets/images/Logo_masthead.png" # don't change this
-    url: /home.html
+    url: /
   nav:
     - title: "Like 2:"
     - title: Show
@@ -77,7 +77,7 @@ navbar:
 
 ## Google Fonts example to import Space Mono
 googlefonts:
-  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 
 chulapa-skin:
   #layout: sidebar
@@ -86,7 +86,7 @@ chulapa-skin:
     primary: "#0AC0AD"
     body-color: "#052053"
     #body-bg: "#000000"
-    #font-family-base: "#000000"
+    font-family-base: "Poppins"
     secondary: "#157FC3"
     success: "#0BCE65"
     danger: "#f2460d"

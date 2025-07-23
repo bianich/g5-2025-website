@@ -5,40 +5,71 @@
 layout: default
 title: "Home"
 vega: true
+header_type: hero #base, post, hero,image, splash
+header_img: assets/images/general/Header.png
+header_title: "Like 2 Resell"
+subtitle: "How popularity rules the second hand market"
 ---
+In an era where circular fashion is more than a trend, the second-hand market has transformed from a niche pastime into a global force of style and sustainability. Digital resale platforms are rewriting the fashion playbook, and our study just confirmed what the most successful resellers have long suspected: **popularity sells**.
+ 
+Yes, the humble *like*, a digital nod of approval, is now the strongest indicator of whether your pre-loved item will find a new home.
+ 
+![Banner images](assets/images/home/griglia_immagini_home.png)
 
-<div class="full-width-wrapper">
-    <img src="{{ site.baseurl }}/assets/images/general/Header.png" alt="sbd-pattern" class="full-width-image">
+<br>
+ 
+## The Study
+ 
+We analyzed over **560,000 items** from more than **360,000 users**, focusing on men’s and women’s clothing. The results? Not what you’d expect.
+ 
+Brand names, often held up as the holy grail of resale, turned out to be surprisingly weak predictors of actual sales. One reason? Human error. Among the top “brands” listed: *Uomo*, not a luxury label, just the Italian word for “man.”
+ 
+Instead, what really moves the virtual shelves is something more elusive: **attention**. Items that rack up *likes* are far more likely to sell. **Visibility**, it turns out, is the X-Factor.
+ 
+
+<br>
+
+ 
+## Insights from the Inside
+ 
+Streetwear reseller and influencer **@Majinbux** (Simone Buccioni) summed it up best:
+ 
+> “Men go for brands.”
+ 
+But the data tells a deeper story, that beyond the brand, it’s *social validation* that seals the deal. Being seen, shared, and approved by the community matters more than a designer tag, especially one that might be misspelled.
+
+<br>
+ 
+## Words Matter
+ 
+Listings that included descriptions like **“never worn”** or **“in excellent condition”** outperformed the rest. Buyers, it seems, want second-hand with **first-wear freshness**. The allure lies in the *newness of the nearly new*.
+
+<br>
+
+## Pics Don't Matter
+ 
+Despite the visual-centric nature of fashion, our findings show that **images alone are not reliable predictors of sales**. The verdict? **In second-hand fashion, social cues speak louder than aesthetics.**
+
+<br>
+
+## When Data Gets Dressed
+ 
+We didn’t stop at observation: we tried to **predict the future**. Using machine learning, we built models to guess which items would sell and why.
+The result? Likes still top the list. But timing and category matter too. Turns out, attention isn’t just powerful, it’s predictable.
+
+<br>
+
+## Conclusion
+ 
+What emerged from the numbers was more than just patterns — it was a **cultural insight**: in today’s fashion economy, **social proof is the new luxury label**.
+ 
+The key to resale success? It’s not just what you’re selling — it’s how many people are watching.
+
+<div style="background-color: #f8f8f8; padding: 1rem 1.5rem; border-left: 4px solid #00b39f; border-radius: 4px; margin-top: 1rem;">
+  <p style="margin-bottom: 0.5rem;">
+    So next time you list that barely-worn coat, don’t just drop the brand name. <strong>Make it likeable.</strong>
+  </p>
+  <p style="margin: 0;">
+    Because in the fashion marketplace of the future, <strong>popularity isn’t just a metric, it’s currency.</strong>
+  </p>
 </div>
-
-To develop the *Progettone* website  we will use a **Static Site Generator** (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.
-In particular, we will use one of the most popular SSGs: Jekyll and GitHub Pages.
-{: .lead }
-
-**Jekyll** is a simple, blog-aware, static site generator that takes your content, renders it into a static website, and serves it. Combined with GitHub Pages, it allows you to host your website for free, making it an ideal choice for personal projects, portfolios, and documentation sites.
-{: .lead }
-
-**GitHub Pages** is a service provided by GitHub that allows you to host static websites directly from a GitHub repository. It supports Jekyll out of the box, making it easy to deploy your Jekyll site with just a few clicks.
-{: .lead }
-
-<br>
-
-# What you need to start
-
-- [ ] 🐙 **A GitHub account** - If you don't have one, you can [create it for free](https://github.com/)
-- [ ] 📝 **A well-structured draft of your project** - This can be a Word document or any other format you prefer. It should include the main ideas, structure, and content you want to present on your website.
-- [ ] 📊 **A folder with your saved Charts** - You can use the charts you created saving them as .json files in the `assets/charts` folder.
-- [ ] 📂 **A folder with all the images** you want to use on your website: you can save them in the `assets/images` folder.
-{: .bg-color-full  .px-3 .lead}
-
-<br>
-
-# How to start
-
-The development of the website can be done in two ways:
-1. **Completely online, using GitHub and GitHub Pages.**
-2. Locally, using Jekyll and then pushing the changes to GitHub.
-
-In the guide, we will focus on the first option, which is the easiest way to create a website. 
-However, if you want to develop the website locally, you need to install Jekyll on your computer. 
-You can find the instructions on how to do it [in the official guide](https://jekyllrb.com/docs/installation/) or in the [local development section]({{ site.baseurl }}/local-development/).
