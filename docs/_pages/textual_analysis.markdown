@@ -9,7 +9,7 @@ subtitle: "Like 2 describe"
 
 ---
 ## Analysis Objectives
- 
+<br>
 The textual analysis pursued the following goals:
 - Enrich the dataset with missing information (e.g., *gender* and *brand*);
 - Analyze the relationship between textual content and likelihood of sale;
@@ -21,13 +21,16 @@ The textual analysis pursued the following goals:
  
 ## Methodology
  
-### Cleaning and Pre-processing
+#### Cleaning and Pre-processing
+<br>
 A classic text preprocessing pipeline was implemented:
 - Lowercasing;
 - Stopword removal;
 - Symbol and emoji removal (preceded by occurrence analysis);
- 
-### NLP Techniques Used:
+
+<br>
+#### NLP Techniques
+
 - **Regex** for cleaning, pattern matching, and initial information extraction;
 - **TF-IDF** for exploratory analysis and initial vector representation;
 - **Word2Vec** and **Sentence2Vec** for semantic embedding;
@@ -38,19 +41,21 @@ Overall, the results were fairly limited due to the low coherence and quality of
 <br>
  
 ## Dataset Enrichment
- 
+<br>
 Through text analysis, it was possible to:
 - **Assign a gender** to items (M/F/N), with "N" used for ambiguous cases;
 - **Recover information on brands, product categories, and styles** when missing from the metadata.
  
-> This made it possible to observe that items with gender **F** show a higher likelihood of being sold.
+This made it possible to observe that items with gender **F** show a higher likelihood of being sold.
  
+<br>
 <br>
 <br>
  
 ## Quantitative Analysis
  
 ### Text Length
+<br>
 A significant relationship emerged between text length and the likelihood of sale:
  
 | Text Type     | Ideal Length (in number of words) |
@@ -66,6 +71,7 @@ Texts that are too short or too long tend to correlate with lower sale rates.
  
 <br>
 <br>
+<br>
  
 ## Semantic Analysis
  
@@ -77,9 +83,10 @@ The only exception: for items already classified as *"new with tag"*, the effect
 
 <br>
 <br>
+<br>
  
 ### Token-Level Impact on Sales
- 
+<br>
 To identify which textual elements most influence the likelihood of an item being sold, a token-level analysis was conducted using the **log-odds ratio** between sold and unsold items. The process involved the following steps:
  
 - **Preprocessing**: Titles and descriptions were normalized through lowercasing, accent removal, punctuation stripping, and whitespace cleanup.
@@ -95,9 +102,10 @@ The following chart illustrates the 12 most "positive" and 12 most "negative" to
 
 <br>
 <br>
+<br>
  
 ## Semantic Map of Listings
- 
+<br> 
 To explore the semantic structure of user-generated content, a dedicated embedding pipeline was applied:
  
 - Texts (`title` and `description`) were first **cleaned and normalized**, removing symbols, punctuation, and inconsistencies;
@@ -117,9 +125,10 @@ The chart is based on a random sample of 5,000 observations (out of ~400,000) to
  
 <br>
 <br>
+<br>
 
 ## Text Clustering with HDBSCAN
- 
+<br> 
 An initial attempt to identify latent structures in the product-related textual data was made using **KMeans** clustering, applied to text embeddings. However, this approach yielded limited results, as KMeans assumes spherical clusters of similar size and density—conditions rarely met in real-world, user-generated content.
  
 As a result, we shifted to **HDBSCAN**, a clustering algorithm more suitable for noisy datasets and for identifying clusters with **irregular shapes and variable density**—which aligns well with the nature of user-generated content, typically noisy, unstructured, and semantically overlapping.
@@ -163,12 +172,10 @@ These findings suggest that HDBSCAN-based clustering, if further refined, could 
 <br>
 <br>
 <br>
-
-<br>
 <br>
  
 ## Explorative Predictive Models
- 
+<br> 
 Several models were tested to predict the likelihood of sale by combining structured and textual features:
  
 - **Random Forest**
@@ -177,9 +184,11 @@ Several models were tested to predict the likelihood of sale by combining struct
 - **Neural Networks**
  
 Text-derived features (e.g., embeddings, length, key expressions) proved to be **useful and complementary** to classical variables.
- 
+<br>
+<br>
+
 ### Feature Importance Insights from Random Forest
- 
+<br> 
 In an exploratory application of a random forest model, analysis of feature importance revealed that the textual embeddings derived from TF-IDF do indeed carry significant weight. Notably, component 18 emerged as particularly influential in this example.
  
 A deeper investigation into this component showed that it predominantly represents listings for **men’s clothing in good condition**—often described as new or barely worn—and includes details related to color and garment condition. While there are other components with a strong presence of men's items (such as component 14), component 18 uniquely combines **male-oriented content with condition-specific descriptors**, making it especially distinctive.
@@ -188,18 +197,19 @@ A deeper investigation into this component showed that it predominantly represen
  
 <br>
 <br>
- 
+<br> 
+
 ## Limitations and Observations
- 
+<br> 
 - The texts are **extremely heterogeneous** and often lack useful information: some users write minimal descriptions, others provide personal stories or calls to action;
 - **Automatic topic extraction** proved ineffective due to the semantic inconsistency of the content;
 - The language used is **exclusively Italian**, with wide stylistic variation and frequent use of informal or non-standard language.
  
 <br>
 <br>
- 
+<br>
 ## Suggestions for Future Developments
- 
+<br> 
 Some possible directions for improvement:
 - Introduce **fine-tuning of LLMs** on similar content to obtain more robust extractions (brand, category, condition);
  

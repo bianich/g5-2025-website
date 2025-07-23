@@ -45,5 +45,6 @@ These results are likely due to CatBoost’s ability to natively process categor
 CatBoost also offers built-in tools for feature importance analysis, allowing for the generation of visual explanations. Results show that the most relevant numerical features are the publication date and the item category—supporting the idea that items from different categories follow different trends, and that the longer an item stays online, the more likely it is to be sold or removed. The number of likes also remains a strong predictor.
 
 <br>
+<br>
 ## SHAP plots
 {% include slider.html data="classifier" label="Choose a carousel" %}
