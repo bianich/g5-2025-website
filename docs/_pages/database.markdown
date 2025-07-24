@@ -19,11 +19,11 @@ We adopted a two-phase web scraping approach:
 
 - **Phase 1 (April 15 – June 30)**:
 <br>
-Daily collection of new listings including product metadata
+Daily collection of new listings including product metadata.
 
 - **Phase 2 (July 7)**:
 <br>
-Status check for previously scraped items (sold, available or missing)
+Status check for previously scraped items (sold, available or missing).
 
 <br>
 <br>
@@ -43,12 +43,12 @@ We noticed early that the same item could be recovered multiple times and theref
 
 <br>
 
-A main table containing all the permanent attributes of the item (title, id, description, relative user, upload date etc)
-A table for the user, which stores all their information that are relevant to the research (we discarded data that was found to be irrelevant and could pose a databreach issue)
-A table for storing information about the main image of the item 
-A table that contains the instance of the item with all the attributes that could change over time (price, number of likes etc)
+A main table containing all the permanent attributes of the item: title, id, description, relative user, upload date etc.
+A table for the user, which stores all their information that are relevant to the research, discarding data that was found to be irrelevant and could pose a data breach issue.
+A table for storing information about the main image of the item, in the smallest size available.
+A table that contains the instance of the item with all the attributes that could change over time, such as price and number of likes.
 
-In the analysis phase, we also checked how many items were recovered multiple times and if some changing features could be somehow relevant to our research, but these were a minority and had a small - albeit not entirely uselss - impact on the outcome of the classifier.
+Concerning the last table, in the analysis phase we checked how many items were recovered multiple times and if some changing features could be somehow relevant to our research, but these were a minority and had a small, albeit not entirely useless, impact on the outcome of the classifier.
 
 <br>
 <br>
@@ -59,9 +59,9 @@ In the analysis phase, we also checked how many items were recovered multiple ti
 
 As of July 7, we had collected:
 
-- **Over 700,000 instances of items**
+- **789,850 instances of items**
 - **560,770 unique items**  
-- **Around 360,000 users**  
+- **301,562 users**  
 - **251,070 sold items** (~44% sold rate)
 
 This dataset enabled us to estimate the **probability of sale** and analyze the influence of item features on the resale outcome.
@@ -72,7 +72,7 @@ This dataset enabled us to estimate the **probability of sale** and analyze the 
 
 <br>
  
-The study aimed to decode the behavior of digital second-hand sellers. Using web scraping techniques, we collected data on:
+The study aimed to decode the behavior of digital second-hand sellers through meaningful data features. Using web scraping techniques, the main features collected were:
  
 - Price  
 - Label  
@@ -84,7 +84,7 @@ The study aimed to decode the behavior of digital second-hand sellers. Using web
 - Number of likes  
 - Seller’s location (when available)  
  
-These features, obtained also through feature engineering, helped create a structured dataset that could reveal the hidden mechanics of resale success.
+These features, which were later refined by means of feature engineering, helped create a structured dataset that could reveal the hidden mechanics of resale success.
 
 <br>
 <br>
