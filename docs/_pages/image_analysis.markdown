@@ -9,7 +9,9 @@ subtitle: "Like 2 see"
 
 ---
 <br>
-## Dataset Overview
+
+## Image Dataset Overview
+
 <br> 
 This project is based on a large-scale dataset of over 500,000 clothing items scraped from the platform over a two-month period (April to June). For the purpose of image-based classification, we extracted a balanced subset focused on the sold / not sold target variable.
  
