@@ -108,7 +108,7 @@ This step aimed to assess whether visual information alone carries structure tha
 
 ## ResNet50 Embeddings
 <br> 
-We first extracted the penultimate layer features of the ResNet50 model, which had been trained on the binary classification task "sold vs not sold". These embeddings were reduced in dimensionality via t-SNE and clustered using KMeans (with K=5 based on the elbow method).
+We first extracted the penultimate layer features of the ResNet50 model, which had been trained on the binary classification task "sold vs not sold". These embeddings were clustered using KMeans (with K=5 based on the elbow method) and reduced in dimensionality via t-SNE for visualization purposes.
  
 The resulting t-SNE plot is shown below:
  
