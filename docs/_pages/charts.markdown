@@ -25,6 +25,7 @@ Through geographic maps, seller classifications, and performance indicators, the
 The visual tools are fully interactive: **hovering or selecting regions and seller classes** reveals detailed statistics, enabling an in-depth exploration of how the platform is used across different contexts.
 
 <br>
+<br>
 
 <h2 style="width: 100%; text-align: center">
     Item publications across Italy
@@ -32,11 +33,15 @@ The visual tools are fully interactive: **hovering or selecting regions and sell
 
 <br>
 
-This chart shows the geographic distribution of items published by Italian users, grouped by region and colored on a logarithmic scale to highlight large volume differences.\
-**Hovering over a region** reveals stats such as number of users, items, and items sold.
-Location data was inferred via reverse geocoding from scraped latitude and longitude coordinates. Some users couldn't be geolocated, so their items are not included.
-**Campania, Lombardy, and Sicily** lead with over 30,000 items each, followed by Lazio, Puglia, and Tuscany. **Val d'Aosta, Molise, and Basilicata** show the lowest volumes.
-These differences likely reflect both population size (covered in the next chart) and broader factors like digital access and cultural attitudes toward second-hand markets.
+This chart provides a useful **overview** of the **geographic distribution** of supply on the platform, showing the number of items published by Italian users, grouped by region. Regions are colored using a logarithmic scale, allowing clear visualization of large differences in publication volumes. 
+
+By **hovering** over each **region**, additional **statistics** such as the number of users, total items, and items sold are **displayed**. 
+
+Geographic information was not directly available but inferred through reverse geocoding, based on latitude and longitude coordinates extracted via scraping from user profiles. However, not all Italian users were successfully geolocated: some items are missing from the chart due to the inability to assign them to a specific region. 
+
+The **most active** regions are **Campania**, **Lombardy**, and **Lazio**, each with over 30,000 published items. Puglia, Emilia Romagna and Sicily follow with significant numbers. At the **bottom** of the **ranking** are regions like **Val d'Aosta**, **Molise**, and **Basilicata**, with much lower volumes. 
+
+These differences may reflect not only population distribution (explored in the next chart), but also digital access and the cultural attitude toward second-hand markets. 
 
 <br>
 
@@ -59,17 +64,15 @@ These differences likely reflect both population size (covered in the next chart
 
 <br>
 
-This chart shows the intensity of user activity on the platform, measured as the number of items published per 1,000 inhabitants in each Italian region. Next to each bar, the percentage of sold items is also displayed.
- 
-This chart offers a more refined view of regional behavior, filtering out demographic effects and highlighting both user engagement and sales effectiveness.
- 
-Indeed, this visualization normalizes item volumes by population size (ISTAT data, January 2025), offering a fairer comparison across regions.
- 
-**Campania** ranks highest in publication intensity, followed by **Sicily**, **Tuscany**, and **Lazio**. These regions stand out not only for their absolute numbers but also for their high engagement relative to population size.
- 
-Conversely, regions like **Molise**, **Val d'Aosta**, and **Basilicata** show a much lower rate of publication per capita, consistent with the patterns observed in the previous chart.
- 
-The percentage label on each bar indicates how many items were actually sold. In some regions (e.g. Sicily, Tuscany), high activity is matched by strong sales performance, while others show lower conversion rates.
+This chart shows the intensity of user activity on the platform, measured as the number of items published per 1,000 inhabitants in each Italian region. Next to each bar, the percentage of sold items is also displayed. 
+
+This chart offers a more refined view of regional behavior, filtering out demographic effects and highlighting both user engagement and sales effectiveness. 
+
+Indeed, this visualization normalizes item volumes by population size (ISTAT data, January 2025), offering a fairer comparison across regions. 
+
+**Campania** ranks highest in publication intensity, followed by **Umbria e Puglia**. 
+
+Conversely, regions like **Molise**, **Sardegna** and **Val d'Aosta** show a much lower rate of publication per capita, consistent with the patterns observed in the previous chart. 
 
 <br>
 
