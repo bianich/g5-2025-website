@@ -45,12 +45,7 @@ Training was performed over a maximum of 100 epochs, with early stopping trigger
 The model failed to produce accurate or generalizable results.
  
 Evaluation on the validation set yielded the following metrics:
- 
- 
-| Class     | Precision | Recall | F1-score | Support |
-|-----------|-----------|--------|----------|---------|
-| not_sold  | 0.55      | 0.31   | 0.40     | 6250    |
-| sold      | 0.52      | 0.75   | 0.61     | 6250    |
+<br>
  
 | Metric         | Value  |
 |----------------|--------|
@@ -61,9 +56,8 @@ Evaluation on the validation set yielded the following metrics:
 | Weighted Avg Precision | 0.54 |
 | Macro Avg Recall | 0.53 |
 | Weighted Avg Recall | 0.53 |
- 
-<br>
 
+<br>
 This report suggests that the model performed only marginally better than random guessing. This outcome indicates that *visual information alone, at least in this configuration, is not a reliable predictor of an item’s selling success*.
 <br>
 <br>
